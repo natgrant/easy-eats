@@ -1,5 +1,5 @@
-{
-    "Specials": [
+ {
+    "specials": [
         {"id": 1,
         "weekday": "Monday",
         "name": ["Chow","Sweet Mother's Kitchen","Higher Taste"],
@@ -56,4 +56,4 @@
                 }
 
     ]
-}
+ }

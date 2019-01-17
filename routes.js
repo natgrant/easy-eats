@@ -1,26 +1,20 @@
-const express = require ('express')
-const router = express.Router()
-//const data = require ('')
-const bodyParser = require ('body-parser')
-const fs = require ('fs')
-
-const server = express ()
+const express = require('express')
+const router = express.Router();
+const data = require('./data.json')
+const bodyParser = require('body-parser')
+const fs = require('fs')
+module.exports = router
 router.use(bodyParser.urlencoded({extended: true}))
 
-var data = {
-    name : "test",
-    age :"test"
-}
+router.get('/', (req, res) => {
 
-router.get('/',function(req,res){
-    res.render(__dirname + '/views/home',data)
+  res.render(__dirname + '/views/index',data)
+  
+})
+
+router.get('/view', (req, res) => {
+
+  res.render(__dirname + '/views/view', data)
 })
 
 
-
-
-
-
-
-
-module.exports = router

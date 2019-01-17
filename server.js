@@ -15,6 +15,4 @@ server.engine('hbs', hbs({
   server.use('/',routes)
   server.set('views', __dirname + '/views');
 
-
-
   module.exports = server
