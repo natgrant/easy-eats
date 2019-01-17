@@ -1,57 +1,57 @@
 {
-    "Specials": [
+    "specials": [
         {"id": 1,
         "weekday": "Monday",
-        "name": ["Chow Tory","",""],
-        "special": ["","",""],
-        "image": ["","",""],
-        "URL": ["","",""],
-        "contact": ["","",""],
-        "location": ["","",""]
+        "name": ["Chow","Sweet Mother's Kitchen","Higher Taste"],
+        "special": ["2 for 1deal","12.50 Fish po boy","$10 Paneer fired rice"],
+        "image": ["chow.jpeg","fish-po-boy.jpg","paneer-fried-rice.jpg"],
+        "URL": ["http://www.chow.co.nz/"," http://www.sweetmotherskitchen.co.nz/",""],
+        "contact": ["04-382 8585"," 04-385 444","04-472 2233"],
+        "location": ["45 Tory St, ","5 Courtenay","Old Bank Arcade"]
 
         },
 
         {"id": 2,
             "weekday": "Tuseday",
-            "name": ["","",""],
-            "special": ["","",""],
-            "image": ["","",""],
-            "URL": ["","",""],
-            "contact": ["","",""],
-            "location": ["","",""]
+            "name": ["Scopa","Rock Yard","Monterey"],
+            "special": ["$8 Margherita Pizza","$9.25 Spicy Lemongrass chicken","$10 Cajun-spiced free range chicken burger"],
+            "image": ["margherita-pizza.jpeg","lemongress-chicken.jpeg","cajun-burger.jpg"],
+            "URL": ["https://www.scopa.co.nz/","",""],
+            "contact": ["04-384 6020","04-381 3930","04-389 3008"],
+            "location": ["141 Cuba st","18Allen st","4 Rintoul st"]
     
         },
 
         {"id": 3,
                 "weekday": "Wednesday",
-                "name": ["","",""],
-                "special": ["","",""],
-                "image": ["","",""],
-                "URL": ["","",""],
-                "contact": ["","",""],
-                "location": ["","",""]
+                "name": ["Southern Cross","Little Hanoi","Pizza Pomodoro"],
+                "special": ["$15 Roast lunch","$12.50 Chicken and bamboo noodle soup","$10 Large margherita pizza"],
+                "image": ["roast-lunch.jpeg","chicken-noddle-soup .jpeg","margherita pizza2"],
+                "URL": ["https://www.thecross.co.nz/","http://www.littlehanoi.co.nz","https://www.pizzapomodoro.co.nz/"],
+                "contact": ["04-384 9085","04-928 8888","04-381 2929"],
+                "location": ["39 Abel Smith st","210A Left Bank","13 Leeds St, "]
         
             },
 
             {"id": 4,
                     "weekday": "Thursday",
-                    "name": ["","",""],
-                    "special": ["","",""],
-                    "image": ["","",""],
-                    "URL": ["","",""],
-                    "contact": ["","",""],
-                    "location": ["","",""]
+                    "name": ["Chef's Palette","Nam D","Thunderbird"],
+                    "special": ["$5 Vegetarian noodles","$7.50 Banh Mi Thit","$10.50 Ron's Winner burger"],
+                    "image": ["vege-noddles.jpeg","banh-mi-thit.jpg","winner-burger.jpg"],
+                    "URL": ["null","https://www.nam-d.co.nz/","http://www.thunderbirdcafe.co.nz/"],
+                    "contact": ["04-472 2977","null","04-499 1966"],
+                    "location": ["Woodward St","78 Willis st","154 Featherston st"]
             
             },
 
              {"id": 5,
                         "weekday": "Friday",
-                        "name": ["Cafe Panama","",""],
-                        "special": ["Bacon and wedges for $9","",""],
-                        "image": ["","",""],
-                        "URL": ["https://www.zomato.com/wellington/cafe-panama-te-aro-wellington-city","",""],
-                        "contact": ["04 8018886","",""],
-                        "location": ["75 Taranaki Street,","",""]
+                        "name": ["Sushi B","Goose Shack","Chumeez"],
+                        "special": ["$3.30 Six pieces of sushi9","$9 Hot pork belly sandwich","$11.50 Singapore Hokkien Noodles"],
+                        "image": ["sushi.jpeg","pork-belly-sandwich.jpeg","hokkien-noodles.jpg"],
+                        "URL": ["https://www.sushibi.co.nz/sushi-bi/","null",""],
+                        "contact": ["04-499 8578","04-389 7171","04-473 2386"],
+                        "location": ["72 Woodward St","461 Adelaide Rd","134-138 Lambton Quay"]
                 
                 }
 

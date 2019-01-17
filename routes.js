@@ -8,15 +8,13 @@ router.use(bodyParser.urlencoded({extended: true}))
 
 router.get('/', (req, res) => {
 
-  res.render('index',data)
+  res.render(__dirname + '/views/index',data)
+  
+})
+
+router.get('/view', (req, res) => {
+
+  res.render(__dirname + '/views/view', data)
 })
 
 
-
-
-router.get('/?/:id', (req, res) => {
-  var result = data.?.find(function (item) {
-    return item.id == req.params.id
-  })
-  res.render('index/view', result)
-})
