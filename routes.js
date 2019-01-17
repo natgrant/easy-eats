@@ -4,6 +4,7 @@ const data = require('./data.json')
 const bodyParser = require('body-parser')
 const fs = require('fs')
 module.exports = router
+router.use(bodyParser.urlencoded({extended: true}))
 
 router.get('/', (req, res) => {
 

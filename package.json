@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "EasyEats",
   "version": "1.0.0",
@@ -9,3 +10,27 @@
     "express": "^4.16.4"
   }
 }
+||||||| merged common ancestors
+=======
+{
+    "name": "easyeats",
+    "version": "1",
+    "description": "webiste to select best meal deals for the",
+    "main": "index.js",
+    "author": "EDA",
+    "license": "ISC",
+    "scripts": {
+        "debug": "nodemon --inspect index --ignore data.json",
+        "test": "jest --watchAll --noStackTrace",
+        "start": "node index"
+    },
+    "dependencies": {
+        "node": "^11.6.0"
+    },
+    "devDependencies": {
+        "express": "^4.16.4",
+        "express-handlebars": "^3.0.0",
+        "jest": "^23.6.0"
+    }
+}
+>>>>>>> master
