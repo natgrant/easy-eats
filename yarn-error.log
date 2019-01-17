@@ -1,0 +1,32 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js init
+
+PATH: 
+  C:\Users\Ranjit\.babun\cygwin\home\Ranjit\.local\bin;C:\Users\Ranjit\.babun\cygwin\usr\local\bin;C:\Users\Ranjit\.babun\cygwin\usr\local\bin;C:\Users\Ranjit\.babun\cygwin\bin;C:\Users\Ranjit\.babun\cygwin\home\Ranjit\.local\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\Users\Ranjit\AppData\Local\Microsoft\WindowsApps;C:\Users\Ranjit\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Ranjit\AppData\Roaming\npm;C:\Users\Ranjit\AppData\Local\Yarn\bin;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: Can't answer a question unless a user TTY
+      at ConsoleReporter.question (C:\Program Files (x86)\Yarn\lib\cli.js:92081:59)
+      at Object.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:84469:38)
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:304:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:315:13
+      at process._tickCallback (internal/process/next_tick.js:68:7)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
