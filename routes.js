@@ -7,8 +7,13 @@ const fs = require ('fs')
 const server = express ()
 router.use(bodyParser.urlencoded({extended: true}))
 
+var data = {
+    name : "test",
+    age :"test"
+}
+
 router.get('/',function(req,res){
-    res.send('<h1>Welcome<h1>')
+    res.render(__dirname + '/views/home',data)
 })
 
 
