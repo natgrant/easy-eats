@@ -8,12 +8,12 @@ router.use(bodyParser.urlencoded({extended: true}))
 
 router.get('/', (req, res) => {
 
-  res.render(__dirname + '/views/index',data)
+  console.log(data)
+  res.render(__dirname + '/views/index', data)
   
 })
 
-router.get('/view', (req, res) => {
-
+router.get('/view/:id', (req, res) => {
   res.render(__dirname + '/views/dailydeals', data)
 })
 
