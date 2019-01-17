@@ -8,7 +8,7 @@ const server = express ()
 router.use(bodyParser.urlencoded({extended: true}))
 
 router.get('/',function(req,res){
-    res.send('<h1>Welcome<h1>')
+    res.send('Welcome')
 })
 
 
