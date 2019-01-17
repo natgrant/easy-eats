@@ -1,7 +1,7 @@
 {
-    "name": "easyeats",
+    "name": "pupparazzi",
     "version": "1.0.1",
-    "description": "webiste made to make choosing meals easy",
+    "description": "Challenge to learn server side rendering and callbacks",
     "main": "index.js",
     "author": "EDA",
     "license": "ISC",
@@ -10,13 +10,13 @@
       "test": "jest --watchAll --noStackTrace",
       "start": "node index"
     },
-    "homepage": "https://easyeats2.herokuapp.com/",
+    "homepage": "https://github.com/dev-academy-challenges/pupparazzi#readme",
     "repository": {
       "type": "git",
-      "url": "https://easyeats2.herokuapp.com/"
+      "url": "git+https://github.com/dev-academy-challenges/pupparazzi.git"
     },
     "bugs": {
-      "url": "https://easyeats2.herokuapp.com/"
+      "url": "https://github.com/dev-academy-challenges/pupparazzi/issues"
     },
     "dependencies": {
       "express": "^4.16.2",
@@ -27,6 +27,10 @@
       "jest": "^22.0.6",
       "nodemon": "^1.14.11",
       "supertest": "^3.1.0"
+    },
+    "jest": {
+      "watchPathIgnorePatterns": [
+        "data.json"
+      ]
     }
-    
   }
