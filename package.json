@@ -1,24 +1,32 @@
 {
-    "name": "easyeats",
-    "description": "webiste to select best meal deals for the",
+    "name": "pupparazzi",
+    "version": "1.0.1",
+    "description": "Challenge to learn server side rendering and callbacks",
     "main": "index.js",
     "author": "EDA",
     "license": "ISC",
     "scripts": {
-        "debug": "nodemon --inspect index --ignore data.json",
-        "test": "jest --watchAll --noStackTrace",
-        "start": "node index"
+      "debug": "nodemon --inspect index --ignore data.json",
+      "test": "jest --watchAll --noStackTrace",
+      "start": "node index"
     },
-    "engines": {
-        "yarn": "1.13.0",
-        "node": "^11.6.0"
-      },
+    "homepage": "https://github.com/dev-academy-challenges/pupparazzi#readme",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dev-academy-challenges/pupparazzi.git"
+    },
+    "bugs": {
+      "url": "https://github.com/dev-academy-challenges/pupparazzi/issues"
+    },
     "dependencies": {
-        "node": "^11.6.0"
+      "express": "^4.16.2",
+      "express-handlebars": "^3.0.0",
+      "pg": "^7.8.0"
     },
     "devDependencies": {
-        "express": "^4.16.4",
-        "express-handlebars": "^3.0.0",
-        "jest": "^23.6.0"
+      "jest": "^22.0.6",
+      "nodemon": "^1.14.11",
+      "supertest": "^3.1.0"
     }
-}
+    
+  }
