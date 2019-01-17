@@ -14,7 +14,7 @@ router.get('/', (req, res) => {
 
 router.get('/view', (req, res) => {
 
-  res.render(__dirname + '/views/view', data)
+  res.render(__dirname + '/views/dailydeals', data)
 })
 
 
