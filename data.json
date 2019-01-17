@@ -1,0 +1,59 @@
+{
+    "Specials": [
+        {"id": 1,
+        "weekday": "Monday",
+        "name": ["Chow Tory","",""],
+        "special": ["","",""],
+        "image": ["","",""],
+        "URL": ["","",""],
+        "contact": ["","",""],
+        "location": ["","",""]
+
+        },
+
+        {"id": 2,
+            "weekday": "Tuseday",
+            "name": ["","",""],
+            "special": ["","",""],
+            "image": ["","",""],
+            "URL": ["","",""],
+            "contact": ["","",""],
+            "location": ["","",""]
+    
+        },
+
+        {"id": 3,
+                "weekday": "Wednesday",
+                "name": ["","",""],
+                "special": ["","",""],
+                "image": ["","",""],
+                "URL": ["","",""],
+                "contact": ["","",""],
+                "location": ["","",""]
+        
+            },
+
+            {"id": 4,
+                    "weekday": "Thursday",
+                    "name": ["","",""],
+                    "special": ["","",""],
+                    "image": ["","",""],
+                    "URL": ["","",""],
+                    "contact": ["","",""],
+                    "location": ["","",""]
+            
+            },
+
+             {"id": 5,
+                        "weekday": "Friday",
+                        "name": ["Cafe Panama","",""],
+                        "special": ["Bacon and wedges for $9","",""],
+                        "image": ["","",""],
+                        "URL": ["https://www.zomato.com/wellington/cafe-panama-te-aro-wellington-city","",""],
+                        "contact": ["04 8018886","",""],
+                        "location": ["75 Taranaki Street,","",""]
+                
+                }
+
+    ]
+}
