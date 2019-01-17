@@ -5,6 +5,7 @@ const server = express ()
 
 // Middleware
 server.engine('hbs', hbs({
+  extname: 'hbs',
     defaultLayout: 'main',
     extname: 'hbs',
     layoutsDir: __dirname + '/views/layouts/'
