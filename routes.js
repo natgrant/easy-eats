@@ -8,7 +8,7 @@ router.use(bodyParser.urlencoded({extended: true}))
 
 router.get('/', (req, res) => {
 
-  res.render(__dirname + '/views/index',data)
+  res.render(__dirname + '/views/home',data)
   
 })
 
@@ -19,6 +19,19 @@ router.get('/view', (req, res) => {
 
 router.get('/view/:id', (req, res) => {
   res.render(__dirname + '/views/dailydeals', data)
+})
+
+
+router.get('/view/:id', (req, res) => {
+  var specialsArray = data.specials
+
+for (i=0; i<specialsArray.length;i++){ 
+
+  if (Number(req.params.id) === specialsArray[i].id){
+    var obj = specialsArray[i]
+  }}
+  console.log(obj)
+  res.render(__dirname + '/views/dailydeals', obj)
 })
 
 

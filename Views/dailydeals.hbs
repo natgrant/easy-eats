@@ -4,13 +4,16 @@
     <div class="col-md-6 text-center">
       <div class="row justify-content-center">
         <div class="col-10 col-lg-8 info mb-5 mb-md-0">
-          <h2>RESTO ID HERE</h2>
-            <p class="leadText">CONTENT HERE</p>
+          <h2>{{1}}</h2>
+            <p class="leadText">{{specials.[1].name}}</p>
+            <p class="leadText">{{specials.[1].special}}</p>
+            <p class="leadText">{{specials.[1].location}}</p>
+            <p class="leadText">{{specials.[1].contact}}</p>
           </div>
         </div> 
       </div>
       <div class="col-md-6 px-0 py-0">
-        <img class="img-fluid" src="placeholder.jpg" alt="Tasty eats">
+        <img class="img-fluid" src="{{specials.[id].image}}" alt="Tasty eats">
       </div>
     </div>
 
@@ -42,3 +45,8 @@
       </div>
     </div>
   </section>
+
+
+
+
+   
