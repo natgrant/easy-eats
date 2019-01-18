@@ -17,4 +17,9 @@ router.get('/view', (req, res) => {
   res.render(__dirname + '/views/view', data)
 })
 
+router.get('/view/:id', (req, res) => {
+  res.render(__dirname + '/views/dailydeals', data)
+})
+
+
 
