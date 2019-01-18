@@ -16,12 +16,15 @@ router.get('/', (req, res) => {
 router.get('/view/:id', (req, res) => {
   var specialsArray = data.specials
 
-for (i=0; i<specialsArray.length;i++){ 
+for (var i=0; i < specialsArray.length;i++){ 
 
   if (Number(req.params.id) === specialsArray[i].id){
     var obj = specialsArray[i]
-  }}
-  res.render(__dirname + '/views/dailydeals', obj)
+  
+  return res.render(__dirname + '/views/dailydeals', obj)
+}
+}
+res.send('No specials found :(')
 })
 
 
