@@ -31,5 +31,5 @@ for (var i=0; i < specialsArray.length;i++){
     var obj = specialsArray[i]
 
    
-   res.render(__dirname + '/views/dailydeals', data)}
+   res.render(__dirname + '/views/dailydeals', obj)}
 }})
