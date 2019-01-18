@@ -22,7 +22,7 @@ router.get('/view/:id', (req, res) => {
       var obj = specialsArray[i]
 
 
-      res.render(__dirname + '/views/dailydeals', obj)
+      res.render(__dirname + '/dailydeals', obj)
     }
   }
 })
