@@ -19,7 +19,7 @@
     "url": "https://easyeats2.herokuapp.com/"
   },
   "dependencies": {
-    "express": "^4.16.2",
+    "express": "^4.16.4",
     "express-handlebars": "^3.0.0",
     "pg": "^7.8.0"
   },
