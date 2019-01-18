@@ -6,7 +6,7 @@ const app = express ()
 // Middleware
 app.engine('hbs', hbs({
   extname: 'hbs',
-  defaultLayout: 'default',
+  defaultLayout: 'main',
     
   }))
   app.set('view engine', 'hbs')
