@@ -17,24 +17,19 @@ router.get('/view', (req, res) => {
   res.render(__dirname + '/views/view', data)
 })
 
-router.get('/view/:id', (req, res) => {
-  res.render(__dirname + '/views/dailydeals', data)
-})
+// router.get('/view/:id', (req, res) => {
+//   res.render(__dirname + '/views/dailydeals', data)
+// })
 
 router.get('/view/:id', (req, res) => {
   var specialsArray = data.specials
 
 for (var i=0; i < specialsArray.length;i++){ 
 
+
   if (Number(req.params.id) === specialsArray[i].id){
     var obj = specialsArray[i]
-  
-  return res.render(__dirname + '/views/dailydeals', obj)
-}
-}
-res.send('No specials found :(')
-})
 
-
-
-
+   
+   res.render(__dirname + '/views/dailydeals', obj)}
+}})
