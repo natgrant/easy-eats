@@ -14,7 +14,14 @@ router.get('/', (req, res) => {
 })
 
 router.get('/view/:id', (req, res) => {
-  res.render(__dirname + '/views/dailydeals', data)
+  var specialsArray = data.specials
+
+for (i=0; i<specialsArray.length;i++){ 
+
+  if (Number(req.params.id) === specialsArray[i].id){
+    var obj = specialsArray[i]
+  }}
+  res.render(__dirname + '/views/dailydeals', obj)
 })
 
 
