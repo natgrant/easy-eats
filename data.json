@@ -12,7 +12,7 @@
         },
 
         {"id": 2,
-            "weekday": "Tuseday",
+            "weekday": "Tuesday",
             "name": ["Scopa","Rock Yard","Monterey"],
             "special": ["$8 Margherita Pizza","$9.25 Spicy Lemongrass chicken","$10 Cajun-spiced free range chicken burger"],
             "image": ["/images/margherita-pizza.jpeg","/images/lemongress-chicken.jpeg","/images/cajun-burger.jpg"],
