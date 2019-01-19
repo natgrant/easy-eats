@@ -1,20 +1,56 @@
 {{>navbar}}
 
 <!-- Daily page layout -->
-
-<div class="col-10 col-lg-8 info mb-5 mb-md-0">
-  <h2>{{weekday}}</h2>
-
-  <p class="leadText">{{name.[0]}}</p>
-  <p class="leadText">{{special.[0]}}</p>
-  <p class="leadText">{{location.[0]}}</p>
-  <p class="leadText">{{contact.[0]}}</p>
+<div class = "top-buffer">
+<div class= row  >
+  <div class = "col">
+  <h2 class = "text-center">{{weekday}}</h2>
+  </div>
+</div>
 </div>
 
-<div class="col-md-6 px-0 py-0">
-  <img class="img-fluid" src="{{image.[0]}}" alt="Tasty eats">
-</div>
+<div class = "top-buffer">
+<div class = "row" >
+  <div class = "col">
+  <p class="leadText text-center">{{name.[0]}}</p>
+  <p class="leadText text-center">{{special.[0]}}</p>
+  <p class="leadText text-center">{{location.[0]}}</p>
+  <p class="leadText text-center">{{contact.[0]}}</p>
+ </div>
+ <div class = "col">
+   <img class="day" src="{{image.[0]}}" alt="Tasty eats"> 
+ </div>
+ </div>
 
+ <div class = "top-buffer">
+<div class = "row" >
+  <div class = "col">
+  <p class="leadText text-center">{{name.[1]}}</p>
+  <p class="leadText text-center">{{special.[1]}}</p>
+  <p class="leadText text-center">{{location.[1]}}</p>
+  <p class="leadText text-center">{{contact.[1]}}</p>
+ </div>
+ <div class = "col">
+   <img class="day" src="{{image.[1]}}" alt="Tasty eats"> 
+ </div>
+ </div>
+
+ <div class = "top-buffer">
+<div class = "row" >
+  <div class = "col">
+  <p class="leadText text-center">{{name.[2]}}</p>
+  <p class="leadText text-center">{{special.[2]}}</p>
+  <p class="leadText text-center">{{location.[2]}}</p>
+  <p class="leadText text-center">{{contact.[2]}}</p>
+ </div>
+ <div class = "col">
+   <img class="day" src="{{image.[2]}}" alt="Tasty eats"> 
+ </div>
+ </div>
+   
+
+
+{{!-- 
 <p class="leadText">{{name.[1]}}</p>
 <p class="leadText">{{special.[1]}}</p>
 <p class="leadText">{{location.[1]}}</p>
@@ -35,5 +71,5 @@
   <img class="img-fluid" src="{{image.[2]}}" alt="Tasty eats">
 </div>
 </div>
-
+ --}}
 

@@ -1,26 +1,7 @@
   <!-- Homepage view -->
   {{>navbar}}
 
-  {{!-- {{#each specials}}
-  <div class="row">
-    <div class="column">
-      <figure>
-        <img class= "day" src={{image.[0]}} alt="" style="width:25%">
-        <figcaption>{{weekday}}</figcaption>
-      </figure>
-    </div>
-    {{/each}} --}}
-
-    
-{{!-- <div class = "container-fluid">
-    <div class="col-rw-5 px-0">
-      {{#each specials}}
-        <img src={{image.[0]}} class="img-fluid">
-         {{/each}}
-        </div>
-
-</div>
-   --}}
+  
   <div class = "container-fluid">
 
 <div class = "top-buffer">
@@ -30,7 +11,7 @@
       {{#each specials}}
       <div class = "col">
         <figure>
-        <img src={{image.[0]}} class="day">
+      <a href = "/view/{{id}}"> <img src={{image.[0]}} class="day"></a>
    <a href = "/view/{{id}}"> <caption align = "bottom"> <h2>{{weekday}}</h2> </caption></a> 
         </figure>
          </div> 
@@ -40,21 +21,6 @@
  </div>
  </div>
 
-  {{!-- <div class = "container-fluid">
-
-<div class = "top-buffer">
-   
-    <div class="row">
-      
-      {{#each specials}}
-      <div class = "col">
-        <h2>{{weekday}}</h2>
-         </div>
-         {{/each}}
-       
-        </div>
- </div>
- </div> --}}
- 
+  
 
   
